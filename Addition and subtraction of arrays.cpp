@@ -48,9 +48,8 @@ int main()
 	{
 		for (int j = 0; j < 2; j++)
 		{
-
-				add[i][j] = a[i][j] + b[i][j];
-				cout << add[i][j] << " ";
+			add[i][j] = a[i][j] + b[i][j];
+			cout << add[i][j] << " ";
 		}
 		cout << endl;
 	}
@@ -61,7 +60,6 @@ int main()
 	{
 		for (int j = 0; j < 2; j++)
 		{
-
 			add[i][j] = a[i][j] - b[i][j];
 			cout << add[i][j] << " ";
 		}
